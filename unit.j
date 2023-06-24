@@ -1725,3 +1725,8 @@ native BlzGetEventIsAttack                         takes nothing returns boolean
 @patch 1.32
 */
 native BlzSetUnitFacingEx                          takes unit whichUnit, real facingAngle returns nothing
+
+/**
+Show/hide team color glow such as hero glow
+*/
+native BlzShowUnitTeamGlow                         takes unit whichUnit, boolean show returns nothing
